@@ -4,6 +4,12 @@ This is a bare bone standard 3 row (header, main and footer) layout  using Angul
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1
 
+There are 2 ways you can launch this application :
+
+1. Application is hosted on `Github Pages`, you launch the application on your browser directly, by [clicking here](https://kumaran-is.github.io/angular-flexlayout-standard).
+
+2. Launch the application on [StackBlitz](https://stackblitz.com/), by [clicking here](https://stackblitz.com/github/kumaran-is/angular-flexlayout-standard). [StackBlitz](https://stackblitz.com/) is a online code editor built on top of vscode editor, where you can edit and see your changes on the fly.
+
 **Table of contents:**
 
 1. [Prerequisites and Installation](#prerequisites-and-installation)
@@ -77,6 +83,39 @@ The more the application grows, the slower the build gets. Angular CLI version 7
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Publish Angular Application to Github Pages
+
+Github pages is a Github feature that allows you to deploy any static website or web application or Angular application from your your master or any other branches to `Github pages` for free
+
+Using [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages) library, you can easily publish your angular application to `Github Pages`. 
+
+1. Install [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages) as a devDependency to your project
+
+    ```bash
+    npm install angular-cli-ghpages --save-dev
+    ```
+
+1. Add below npm script to your `package.json`
+
+    ```bash
+    "scripts": {
+      ....
+      .....
+      "prod-build": "ng build --prod --base-href=./",
+      "git-publish": "npm run prod-build && npx angular-cli-ghpages --dir=dist/angular-flexlayout-standard --branch=master"
+    }
+    ```
+
+1. Publish your application from `master` branch to `Github Pages`
+
+    ```bash
+    npm run git-publish
+    ```
+
+1. Launch your application on browser by naviagting to  `https://username.github.io/repo-name/`. Example to launch this application click <https://kumaran-is.github.io/angular-flexlayout-standard>
+
+1. For more detail and options, refer the official [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages) github.
 
 ## GitHub Working Agreement
 

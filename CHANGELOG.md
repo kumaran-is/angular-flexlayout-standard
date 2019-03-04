@@ -1,3 +1,15 @@
+<a name="v1.0.0"></a>
+## 1.0.0 (2019-03-04)
+
+#### Bug Fixes
+* NA
+
+#### Features
+* Published angular application to github page using [angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages) [[PR 1]()]
+
+#### Breaking Changes
+* NA
+
 <a name="v0.0.1"></a>
 ## 0.0.1 (2019-02-24)
 
