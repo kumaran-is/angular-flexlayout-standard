@@ -18,7 +18,7 @@
     "stats": "ng build --prod --base-href=./ --stats-json && webpack-bundle-analyzer dist/angular-flexlayout-standard/stats.json",
     "conventional-changelog": "conventional-changelog",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "git-publish": "npm run prod-build && npx angular-cli-ghpages --dir=dist/angular-flexlayout-standard --branch=master"
+    "git-publish": "npm run prod-build && npx angular-cli-ghpages --dir=dist/angular-flexlayout-standard --branch=gh-pages"
   },
   "private": true,
   "dependencies": {

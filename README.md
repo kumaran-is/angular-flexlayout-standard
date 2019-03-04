@@ -86,9 +86,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Publish Angular Application to Github Pages
 
-Github pages is a Github feature that allows you to deploy any static website or web application or Angular application from your your master or any other branches to `Github pages` for free
+Github pages is a Github feature that allows you to deploy any static website or web application or Angular application from your `gh-pages` branch to `Github pages` for free
 
-Using [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages) library, you can easily publish your angular application to `Github Pages`. 
+Using [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages) library, you can easily publish your angular application to `Github Pages`.
 
 1. Install [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages) as a devDependency to your project
 
@@ -103,11 +103,11 @@ Using [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages) l
       ....
       .....
       "prod-build": "ng build --prod --base-href=./",
-      "git-publish": "npm run prod-build && npx angular-cli-ghpages --dir=dist/angular-flexlayout-standard --branch=master"
+      "git-publish": "npm run prod-build && npx angular-cli-ghpages --dir=dist/angular-flexlayout-standard --branch=gh-pages"
     }
     ```
 
-1. Publish your application from `master` branch to `Github Pages`
+1. Publish your application from `gh-pages` branch to `Github Pages`
 
     ```bash
     npm run git-publish
