@@ -5,7 +5,7 @@
 * NA
 
 #### Features
-* Published angular application to github page using [angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages) [[PR 1](https://github.com/kumaran-is/angular-flexlayout-standard/pull/1)]
+* Published angular application to github page using [angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages)
 
 #### Breaking Changes
 * NA
