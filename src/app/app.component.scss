@@ -1,0 +1,73 @@
+
+/*
+  Force full width & height.
+
+  If this block is removed, the layout height/length will be determined by
+  the amount of content in the page. That might result in a page which has
+  a footer only a few inches from the top of the viewport, or one which
+  scrolls beyond the viewport.
+
+  This forces the layout to always be full screen regardless of how much,
+  or how little, content is in place. Neither is "right" or "wrong", there
+  are valid cases for each. I just want to be clear what's controlling the
+  page/viewport height.
+*/
+html, body, .viewport {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0;
+}
+
+/* container for the page layout */
+.container {
+ min-height: 100vh;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+}
+
+/* main content of page which has 3 horizontal sections - nav, article and nav */
+main {
+  border: 1px solid black;
+  padding-top: 80px;
+  padding-left:0.25em;
+  padding-right:0.25em;
+  padding-bottom:0.25em;
+}
+
+/* some basic styles. nothing to do with flexbox */
+header, footer {
+  border: 1px solid black;
+  padding: 0.25em;
+}
+
+header {
+  background-color: #FFC0CB
+}
+
+main {
+  background-color: #33FF33
+}
+
+footer {
+  background-color: #66B2FF
+}
+
+/* I went with a fixed height header & footer because it's a common case.
+  This could easily be altered to flex proportionally with the page.
+*/
+header {
+  max-height: 70px;
+  min-height: 70px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+footer {
+  max-height: 150px;
+  min-height: 150px;
+}
