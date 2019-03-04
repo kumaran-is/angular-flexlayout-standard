@@ -13,10 +13,13 @@ There are 2 ways you can launch this application :
 **Table of contents:**
 
 1. [Prerequisites and Installation](#prerequisites-and-installation)
-2. [Quick Start](#quick-start)
-3. [Build Tasks and Commands](#build-tasks-and-commands)
-4. [Changelog](#changelog)
-5. [Issue Tracker](#issue-tracker)
+1. [Quick Start](#quick-start)
+1. [Build Tasks and Commands](#build-tasks-and-commands)
+1. [Profiling the Build](#profiling-the-build)
+1. [Publish Angular Application to Github Pages](#publish-angular-application-to-github-pages)
+1. [GitHub Working Agreement](#github-working-agreement)
+1. [Changelog](#changelog)
+1. [Issue Tracker](#issue-tracker)
 
 ## Prerequisites and Installation
 
@@ -62,13 +65,17 @@ To launch the demo application, you can try below steps yourself on your compute
 
 ## Build Tasks and Commands
 
-## Code scaffolding
+### Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+### Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Profiling the Build
 
@@ -79,10 +86,6 @@ The more the application grows, the slower the build gets. Angular CLI version 7
 3. Open [chrome://tracing](chrome://tracing/) and click on “Load” in the top left corner
 4. Select chrome-profiler-events.json
 5. For more detail refer the [link](https://blog.mgechev.com/2019/02/06/5-angular-cli-features/)
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Publish Angular Application to Github Pages
 
