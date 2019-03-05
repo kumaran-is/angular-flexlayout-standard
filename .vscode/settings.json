@@ -1,9 +1,14 @@
 {
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#808080",
-        "titleBar.activeBackground": "#b52e31",
+        "titleBar.activeBackground": "#9932CC",
         "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#b52e31",
-        "titleBar.inactiveForeground": "#e7e7e7"
+        "titleBar.inactiveBackground": "#9932CC",
+        "titleBar.inactiveForeground": "#e7e7e7",
+        "activityBar.background": "#9932CC",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e7",
+        "statusBar.background": "#9932CC",
+        "statusBar.foreground": "#e7e7e7"
     }
 }

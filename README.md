@@ -4,9 +4,9 @@ This is a bare bone standard 3 row (header, main and footer) layout  using Angul
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1
 
-There are 2 ways you can launch this application :
+There are 2 ways you can launch the application :
 
-1. Application is hosted on `Github Pages`, you launch the application on your browser directly, by [clicking here](https://kumaran-is.github.io/angular-flexlayout-standard).
+1. Application is hosted on `Github Pages`, you can launch the application on your browser directly, by [clicking here](https://kumaran-is.github.io/angular-flexlayout-standard).
 
 2. Launch the application on [StackBlitz](https://stackblitz.com/), by [clicking here](https://stackblitz.com/github/kumaran-is/angular-flexlayout-standard). [StackBlitz](https://stackblitz.com/) is a online code editor built on top of vscode editor, where you can edit and see your changes on the fly.
 
@@ -33,7 +33,7 @@ Library | Version | Notes
 
 ## Quick Start
 
-To launch the demo application on your computer, you can try below steps: 
+To launch the application on your computer, you can try below steps:
 
 1. Clone repository and checkout the `master` branch
 
@@ -75,7 +75,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ### Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular Official Site for Angular CLI Overview and Commands](https://angular.io/cli).
 
 ## Profiling the Build
 
