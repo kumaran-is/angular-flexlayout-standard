@@ -4,10 +4,10 @@
         "titleBar.activeBackground": "#9932CC",
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#9932CC",
-        "titleBar.inactiveForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#B4B7BA",
         "activityBar.background": "#9932CC",
         "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#B4B7BA",
         "statusBar.background": "#9932CC",
         "statusBar.foreground": "#e7e7e7"
     }
