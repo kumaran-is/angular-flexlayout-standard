@@ -28,8 +28,8 @@ Library | Version | Notes
 [Node](https://nodejs.org/) | 10.15.0 | Recommended NodeJS version
 [NPM](https://nodejs.org/) |6.4.1 | Recommended NPM version
 [Angular](https://angular.io/) | ~7.2.x | JavaScript-based open-source front-end SPA framework
-[Angular CLI](https://github.com/angular/angular-cli) | 7.3.1 | Set of development tools for Angular
-[Angular Flex-layout](https://github.com/angular/flex-layout) | 7.0.0-beta.23 | Provides a sophisticated layout API using Flexbox CSS + mediaQuery for Angular applications
+[Angular CLI](https://github.com/angular/angular-cli) | ~7.3.0 | Set of development tools for Angular
+[Angular Flex-layout](https://github.com/angular/flex-layout) | ~7.0.0-beta.23 | Provides a sophisticated layout API using Flexbox CSS + mediaQuery for Angular applications
 
 ## Quick Start
 
